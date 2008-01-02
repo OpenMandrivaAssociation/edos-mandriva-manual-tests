@@ -10,6 +10,7 @@ URL:		http://www.edos-project.org
 License:	GPL
 Group:		Development/Other
 Source0:	http://www.edos-project.org/releases/%{name}-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Buildarch:      noarch
 Packager:       Francois Dechelle <fdechelle@mandriva.com>
 
