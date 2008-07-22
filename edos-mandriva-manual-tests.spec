@@ -1,6 +1,6 @@
 %define name edos-mandriva-manual-tests
 %define version 1.0.0
-%define release %mkrel 2
+%define release %mkrel 4
 
 Name:		%{name}
 Summary:	EDOS XML specification files for Mandriva manual test procedures
