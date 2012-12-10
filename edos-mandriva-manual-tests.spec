@@ -185,7 +185,32 @@ Upgrade suite
 %defattr(-,root,root)
 %_datadir/edos/tests/mandriva-manual-tests/Upgrade
 
+
+
 %changelog
-* Tue Oct 31 2006 Francois Dechelle <fdechelle@mandriva.com>
-- initial package
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-6mdv2011.0
++ Revision: 618030
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 1.0.0-5mdv2010.0
++ Revision: 428530
+- rebuild
+
+* Tue Jul 22 2008 Thierry Vignaud <tv@mandriva.org> 1.0.0-4mdv2009.0
++ Revision: 240643
+- rebuild
+- fix description-line-too-long
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Thu Jun 21 2007 Thierry Vignaud <tv@mandriva.org> 1.0.0-2mdv2008.0
++ Revision: 42304
+- fix group
+
+* Tue May 15 2007 François Déchelle <fdechelle@mandriva.org> 1.0.0-1mdv2008.0
++ Revision: 27067
+- Initial import of package
+- Create edos-mandriva-manual-tests
 
