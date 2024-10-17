@@ -6,7 +6,7 @@ Name:		%{name}
 Summary:	EDOS XML specification files for Mandriva manual test procedures
 Version:	%{version}
 Release:	%{release}
-URL:		http://www.edos-project.org
+URL:		https://www.edos-project.org
 License:	GPL
 Group:		Development/Other
 Source0:	http://www.edos-project.org/releases/%{name}-%{version}.tar.bz2
