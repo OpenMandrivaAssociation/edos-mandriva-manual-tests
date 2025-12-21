@@ -14,6 +14,11 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Buildarch:      noarch
 Packager:       Francois Dechelle <fdechelle@mandriva.com>
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 EDOS XML specification files for Mandriva manual test procedures
 
